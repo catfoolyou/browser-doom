@@ -1,0 +1,1 @@
+/tools/src/emsdk/fastcomp/emscripten/emar rc libsamplerate.a  @CMakeFiles/samplerate.dir/objects1.rsp

@@ -1,0 +1,30 @@
+1 ICON "/work/data/doom.ico"
+
+#include <winuser.h>
+
+CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "/work/src/manifest.xml"
+
+1 VERSIONINFO
+PRODUCTVERSION 5, 6, 0, 0
+FILEVERSION 5, 6, 0, 0
+FILETYPE 1
+{
+ BLOCK "StringFileInfo"
+ {
+  BLOCK "040904E4"
+  {
+   VALUE "FileVersion", "5.6.0.0"
+   VALUE "FileDescription", "CrispyBrowser Doom 5.6.0"
+   VALUE "InternalName", "crispy-browser-doom"
+   VALUE "CompanyName", "https://github.com/browser-doom/crispy-browser-doom/issues"
+   VALUE "LegalCopyright", "Copyright (C) 1993-2019. Licensed under GNU General Public License, version 2"
+   VALUE "ProductName", "CrispyBrowser Doom"
+   VALUE "ProductVersion", "5.6.0"
+  }
+ }
+ BLOCK "VarFileInfo"
+ {
+  VALUE "Translation", 0x409, 1252
+ }
+}
+

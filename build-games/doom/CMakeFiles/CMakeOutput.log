@@ -1,0 +1,72 @@
+The target system is: Emscripten - 1 - x86
+The host system is: Linux - 6.1.66-060166-generic - x86_64
+Determining if the strcasecmp exist passed with the following output:
+Change Dir: /build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_618ee/fast && /usr/bin/make -f CMakeFiles/cmTC_618ee.dir/build.make CMakeFiles/cmTC_618ee.dir/build
+make[1]: Entering directory '/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_618ee.dir/CheckSymbolExists.c.o
+/tools/src/emsdk/fastcomp/emscripten/emcc    -o CMakeFiles/cmTC_618ee.dir/CheckSymbolExists.c.o   -c /build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_618ee.js
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_618ee.dir/link.txt --verbose=1
+/tools/src/emsdk/fastcomp/emscripten/emcc      @CMakeFiles/cmTC_618ee.dir/objects1.rsp  -o cmTC_618ee.js 
+make[1]: Leaving directory '/build/CMakeFiles/CMakeTmp'
+
+
+File /build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the strncasecmp exist passed with the following output:
+Change Dir: /build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ce9a0/fast && /usr/bin/make -f CMakeFiles/cmTC_ce9a0.dir/build.make CMakeFiles/cmTC_ce9a0.dir/build
+make[1]: Entering directory '/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce9a0.dir/CheckSymbolExists.c.o
+/tools/src/emsdk/fastcomp/emscripten/emcc    -o CMakeFiles/cmTC_ce9a0.dir/CheckSymbolExists.c.o   -c /build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ce9a0.js
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce9a0.dir/link.txt --verbose=1
+/tools/src/emsdk/fastcomp/emscripten/emcc      @CMakeFiles/cmTC_ce9a0.dir/objects1.rsp  -o cmTC_ce9a0.js 
+make[1]: Leaving directory '/build/CMakeFiles/CMakeTmp'
+
+
+File /build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncasecmp
+  return ((int*)(&strncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file dirent.h exists passed with the following output:
+Change Dir: /build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_cbb4e/fast && /usr/bin/make -f CMakeFiles/cmTC_cbb4e.dir/build.make CMakeFiles/cmTC_cbb4e.dir/build
+make[1]: Entering directory '/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cbb4e.dir/CheckIncludeFile.c.o
+/tools/src/emsdk/fastcomp/emscripten/emcc    -o CMakeFiles/cmTC_cbb4e.dir/CheckIncludeFile.c.o   -c /build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_cbb4e.js
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbb4e.dir/link.txt --verbose=1
+/tools/src/emsdk/fastcomp/emscripten/emcc      @CMakeFiles/cmTC_cbb4e.dir/objects1.rsp  -o cmTC_cbb4e.js 
+make[1]: Leaving directory '/build/CMakeFiles/CMakeTmp'
+
+
+

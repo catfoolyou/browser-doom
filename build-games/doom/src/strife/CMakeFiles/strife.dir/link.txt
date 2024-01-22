@@ -1,0 +1,1 @@
+/tools/src/emsdk/fastcomp/emscripten/emar rc libstrife.a  @CMakeFiles/strife.dir/objects1.rsp

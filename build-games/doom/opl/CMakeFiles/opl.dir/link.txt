@@ -1,0 +1,1 @@
+/tools/src/emsdk/fastcomp/emscripten/emar rc libopl.a  @CMakeFiles/opl.dir/objects1.rsp
